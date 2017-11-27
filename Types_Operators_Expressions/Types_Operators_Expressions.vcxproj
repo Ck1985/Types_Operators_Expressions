@@ -147,8 +147,9 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Exercise2_1.c" />
     <ClCompile Include="stdafx.cpp" />
-    <ClCompile Include="Types_Operators_Expressions.cpp" />
+    <ClCompile Include="Types_Operators_Expressions.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

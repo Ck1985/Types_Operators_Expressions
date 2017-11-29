@@ -5,10 +5,11 @@
 #include "Exercise2_1.c"
 
 void determinesRangeVariable(void);
+void determinesRangeVariable(void);
 
 int main()
 {
-	determinesRangeVariable();
+	//determinesRangeVariable();
 	determinesRangeVariableVer_2();
 	return 0;
 }

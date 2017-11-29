@@ -30,6 +30,20 @@ static void determinesRangeVariable() {
 }
 
 static void determinesRangeVariableVer_2() {
-
+	printf("Determine range of char, short, int, long:\n");
+	printf("A/ Range of signed type data: \n");
+	printf("   Minimum signed char value: %d\n", -(char)((unsigned char)~0 >> 1) - 1);
+	printf("   Maximum signed char value: %d\n", (char)((unsigned char)~0 >> 1));
+	printf("   Minimum signed short value: %d\n", -(short)((unsigned short)~0 >> 1) - 1);
+	printf("   Maximum signed short value: %d\n", (short)((unsigned short)~0 >> 1));
+	printf("   Minimum signed int value: %d\n", -(int)((unsigned int)~0 >> 1) - 1);
+	printf("   Maximum signed int value: %d\n", (int)((unsigned int)~0 >> 1));
+	printf("   Minimum signed long value: %ld\n", -(long)((unsigned long)~0 >> 1) - 1);
+	printf("   Maximum signed long value: %ld\n", (long)((unsigned long)~0 >> 1));
+	printf("B/ Range of unsigned type data: \n");
+	printf("   Maximum signed char value: %d\n", (unsigned char)~0);
+	printf("   Maximum signed short value: %d\n", (unsigned short)~0);
+	printf("   Maximum signed int value: %u\n", (unsigned int)~0);
+	printf("   Maximum signed long value: %lu\n", (unsigned long)~0);
 }
 

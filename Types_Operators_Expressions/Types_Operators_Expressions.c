@@ -9,7 +9,19 @@ void determinesRangeVariable(void);
 
 int main()
 {
+	/* ----------------------------- */
 	//determinesRangeVariable();
-	determinesRangeVariableVer_2();
+	//determinesRangeVariableVer_2();
+	/* ----------------------------- */
+
+	/* ---------Declarations--------- */
+	//int lower, upper, step;
+	//char c, line[1000];
+	//int lower;
+	//int upper;
+	//int step;
+	//char c;
+	//char line[1000];
+	/* ------------------------------ */
 	return 0;
 }

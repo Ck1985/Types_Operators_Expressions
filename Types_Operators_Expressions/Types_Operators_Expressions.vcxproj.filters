@@ -35,5 +35,8 @@
     <ClCompile Include="Types_Operators_Expressions.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="methodGetLengthString.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

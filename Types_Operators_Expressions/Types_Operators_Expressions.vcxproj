@@ -148,6 +148,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Exercise2_1.c" />
+    <ClCompile Include="methodGetLengthString.c" />
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="Types_Operators_Expressions.c" />
   </ItemGroup>

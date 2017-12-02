@@ -147,7 +147,10 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="atoi.c" />
     <ClCompile Include="Exercise2_1.c" />
+    <ClCompile Include="Exercise2_2.c" />
+    <ClCompile Include="getInputLine.c" />
     <ClCompile Include="methodGetLengthString.c" />
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="Types_Operators_Expressions.c" />

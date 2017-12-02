@@ -38,5 +38,14 @@
     <ClCompile Include="methodGetLengthString.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="getInputLine.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Exercise2_2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="atoi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

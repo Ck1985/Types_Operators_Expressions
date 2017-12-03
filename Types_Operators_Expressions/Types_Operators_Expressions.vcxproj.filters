@@ -47,5 +47,11 @@
     <ClCompile Include="atoi.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="lower.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Exercise2_3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -4,6 +4,7 @@
 #include "stdafx.h"
 #include "Exercise2_1.c"
 #include "Exercise2_2.c"
+#include "atoi.c"
 
 #define VTAB '\013'
 #define BELL '\007'
@@ -18,8 +19,10 @@ void determinesRangeVariable(void);
 void determinesRangeVariable(void);
 int getInputLineVer2(char s[MAXLINE]);
 int strlen(const char[]);
+int atoi(char s[]);
+int lower(char c);
 
-int main()
+int main1()
 {
 	/* ----------------------------- */
 	//determinesRangeVariable();
@@ -51,7 +54,7 @@ int main()
 	/* ------------------------------ */
 
 	/* ------------ Arithmetic Operators ----------- */
-	int year = 1999;
+	/*int year = 1999;
 	if (((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0)) {
 		printf("%d is a leaf year\n", year);
 	}
@@ -60,11 +63,11 @@ int main()
 	}
 
 	char inputLine[MAXLINE];
-	getInputLineVer2(inputLine);
+	getInputLineVer2(inputLine);*/
 	/* --------------------------------------------- */
 
 	/* -------------- Type Conversion -------------- */
-
+	
 	/*---------------------------------------------- */
 	return 0;
 }

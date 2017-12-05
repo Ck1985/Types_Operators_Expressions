@@ -154,7 +154,9 @@
     <ClCompile Include="getInputLine.c" />
     <ClCompile Include="lower.c" />
     <ClCompile Include="methodGetLengthString.c" />
+    <ClCompile Include="Squeeze.c" />
     <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Strcat.c" />
     <ClCompile Include="Types_Operators_Expressions.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

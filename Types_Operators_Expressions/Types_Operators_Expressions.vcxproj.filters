@@ -53,5 +53,11 @@
     <ClCompile Include="Exercise2_3.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Squeeze.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Strcat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

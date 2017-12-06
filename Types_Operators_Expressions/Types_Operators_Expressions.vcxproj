@@ -151,6 +151,7 @@
     <ClCompile Include="Exercise2_1.c" />
     <ClCompile Include="Exercise2_2.c" />
     <ClCompile Include="Exercise2_3.c" />
+    <ClCompile Include="Exercise2_4.c" />
     <ClCompile Include="getInputLine.c" />
     <ClCompile Include="lower.c" />
     <ClCompile Include="methodGetLengthString.c" />

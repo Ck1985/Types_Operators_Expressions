@@ -6,6 +6,7 @@
 #include "Exercise2_1.c"
 #include "Exercise2_2.c"
 #include "Exercise2_3.c"
+#include "Exercise2_4.c"
 #include "atoi.c"
 #include "Squeeze.c"
 #include "Strcat.c"
@@ -31,6 +32,7 @@ int getStringHecxa(char inputLine[], int limit);
 unsigned long convertHexToDecimal(char stringHecxa[], int lenHacxa);
 void squeeze(char s[], int c);
 void strcat(char s[], char t[]);
+void squeezeVer2(char s1[], char s2[]);
 
 int main()
 {
@@ -96,5 +98,11 @@ int main()
 	/* ----------- Increment And Decrement Operators ------------- */
 	//squeeze(s, c);
 	//strcat(s, t);
+
+	char s1[] = "abc fgh";
+	char s2[] = "gb";
+	printf("Source String s1: %s\n", s1);
+	printf("Pattern String s2: %s\n", s2);
+	squeezeVer2(s1, s2);
 	/* ----------------------------------------------------------- */
 }

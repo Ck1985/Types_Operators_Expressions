@@ -1,6 +1,6 @@
 /* strcat: Concatenate t to end of s; s must be enough */
 
-void strcat(char s[], char t[]) {
+static void strcat(char s[], char t[]) {
 	int i, j;
 
 	i = j = 0;

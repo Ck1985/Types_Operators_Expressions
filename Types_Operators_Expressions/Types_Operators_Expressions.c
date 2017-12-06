@@ -100,7 +100,7 @@ int main()
 	//strcat(s, t);
 
 	char s1[] = "abc fgh";
-	char s2[] = "gb";
+	char s2[] = "gb ";
 	printf("Source String s1: %s\n", s1);
 	printf("Pattern String s2: %s\n", s2);
 	squeezeVer2(s1, s2);

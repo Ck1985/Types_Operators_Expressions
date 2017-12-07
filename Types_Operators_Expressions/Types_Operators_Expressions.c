@@ -13,6 +13,7 @@
 #include "atoi.c"
 #include "Squeeze.c"
 #include "Strcat.c"
+#include "GetBits.c"
 
 #define VTAB '\013'
 #define BELL '\007'
@@ -37,6 +38,7 @@ void squeeze(char s[], int c);
 void myStrcat(char s[], char t[]);
 void squeezeVer2(char s1[], char s2[]);
 int any(char s1[], char s2[]);
+unsigned getbits(unsigned x, int p, int n);
 
 int main()
 {
@@ -109,8 +111,21 @@ int main()
 	printf("Pattern String s2: %s\n", s2);
 	squeezeVer2(s1, s2);*/
 
-	char s1[] = "cao xuan quy";
+	/*char s1[] = "cao xuan quy";
 	char s2[] = "q";
-	printf("%d\n", any(s1, s2));
+	printf("%d\n", any(s1, s2));*/
 	/* ----------------------------------------------------------- */
+
+	/* ------------ Bitwise Opertors------------------------ */
+	int x, y;
+	x = 1;
+	y = 2;
+
+	printf("x & y = %d\n", x & y);
+	printf("x && y = %d\n", x && y);
+	printf("x << 2 = %d\n", x << 2);
+	printf("%d\n", 077);
+	printf("%d\n", 0xffff);
+	printf("x & ~077 = %d\n", x & ~077);
+	/* ----------------------------------------------------- */
 }

@@ -1,12 +1,15 @@
 // Types_Operators_Expressions.cpp : Defines the entry point for the console application.
 //
 
-#include "stdafx.h"
 #include <stdbool.h>
+#include <string.h>
+#include <stdio.h>
+#include "stdafx.h"
 #include "Exercise2_1.c"
 #include "Exercise2_2.c"
 #include "Exercise2_3.c"
 #include "Exercise2_4.c"
+#include "Exercise2_5.c"
 #include "atoi.c"
 #include "Squeeze.c"
 #include "Strcat.c"
@@ -31,8 +34,9 @@ int lower(char c);
 int getStringHecxa(char inputLine[], int limit);
 unsigned long convertHexToDecimal(char stringHecxa[], int lenHacxa);
 void squeeze(char s[], int c);
-void strcat(char s[], char t[]);
+void myStrcat(char s[], char t[]);
 void squeezeVer2(char s1[], char s2[]);
+int any(char s1[], char s2[]);
 
 int main()
 {
@@ -99,10 +103,14 @@ int main()
 	//squeeze(s, c);
 	//strcat(s, t);
 
-	char s1[] = "abc fgh";
+	/*char s1[] = "abc fgh";
 	char s2[] = "gb ";
 	printf("Source String s1: %s\n", s1);
 	printf("Pattern String s2: %s\n", s2);
-	squeezeVer2(s1, s2);
+	squeezeVer2(s1, s2);*/
+
+	char s1[] = "cao xuan quy";
+	char s2[] = "q";
+	printf("%d\n", any(s1, s2));
 	/* ----------------------------------------------------------- */
 }

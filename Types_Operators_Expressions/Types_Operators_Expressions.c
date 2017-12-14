@@ -4,12 +4,14 @@
 #include <stdbool.h>
 #include <string.h>
 #include <stdio.h>
+#include <limits.h>
 #include "stdafx.h"
 #include "Exercise2_1.c"
 #include "Exercise2_2.c"
 #include "Exercise2_3.c"
 #include "Exercise2_4.c"
 #include "Exercise2_5.c"
+#include "Exercise2_6.c"
 #include "atoi.c"
 #include "Squeeze.c"
 #include "Strcat.c"
@@ -39,6 +41,7 @@ void myStrcat(char s[], char t[]);
 void squeezeVer2(char s1[], char s2[]);
 int any(char s1[], char s2[]);
 unsigned getbits(unsigned x, int p, int n);
+unsigned int setbits(unsigned int x, int p, int n, unsigned int y);
 
 int main()
 {
@@ -117,7 +120,7 @@ int main()
 	/* ----------------------------------------------------------- */
 
 	/* ------------ Bitwise Opertors------------------------ */
-	int x, y;
+	/*int x, y;
 	x = 1;
 	y = 2;
 
@@ -126,6 +129,11 @@ int main()
 	printf("x << 2 = %d\n", x << 2);
 	printf("%d\n", 077);
 	printf("%d\n", 0xffff);
-	printf("x & ~077 = %d\n", x & ~077);
+	printf("x & ~077 = %d\n", x & ~077);*/
+
+	unsigned int result_1 = setbits(0x12341234U, 15, 8, 0x56785678U);
+	printf("%u\n", result_1);
+	result_1 = setbits(0x3256U, 8, 5, 0x6872U);
+	printf("%u\n", result_1);
 	/* ----------------------------------------------------- */
 }

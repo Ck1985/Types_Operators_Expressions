@@ -12,6 +12,7 @@
 #include "Exercise2_4.c"
 #include "Exercise2_5.c"
 #include "Exercise2_6.c"
+#include "Exercise2_7.c"
 #include "atoi.c"
 #include "Squeeze.c"
 #include "Strcat.c"
@@ -42,6 +43,7 @@ void squeezeVer2(char s1[], char s2[]);
 int any(char s1[], char s2[]);
 unsigned getbits(unsigned x, int p, int n);
 unsigned int setbits(unsigned int x, int p, int n, unsigned int y);
+unsigned int invert(unsigned int x, int p, int n);
 
 int main()
 {
@@ -131,9 +133,12 @@ int main()
 	printf("%d\n", 0xffff);
 	printf("x & ~077 = %d\n", x & ~077);*/
 
-	unsigned int result_1 = setbits(0x12341234U, 15, 8, 0x56785678U);
+	/*unsigned int result_1 = setbits(0x12341234U, 15, 8, 0x56785678U);
 	printf("%u\n", result_1);
 	result_1 = setbits(0x3256U, 8, 5, 0x6872U);
-	printf("%u\n", result_1);
+	printf("%u\n", result_1);*/
+
+	unsigned int result = invert(0x56785678, 9, 6);
+	printf("%u\n", result);
 	/* ----------------------------------------------------- */
 }

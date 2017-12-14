@@ -154,6 +154,7 @@
     <ClCompile Include="Exercise2_4.c" />
     <ClCompile Include="Exercise2_5.c" />
     <ClCompile Include="Exercise2_6.c" />
+    <ClCompile Include="Exercise2_7.c" />
     <ClCompile Include="GetBits.c" />
     <ClCompile Include="getInputLine.c" />
     <ClCompile Include="lower.c" />

@@ -13,6 +13,7 @@
 #include "Exercise2_5.c"
 #include "Exercise2_6.c"
 #include "Exercise2_7.c"
+#include "Exercise2_8.c"
 #include "atoi.c"
 #include "Squeeze.c"
 #include "Strcat.c"
@@ -44,6 +45,7 @@ int any(char s1[], char s2[]);
 unsigned getbits(unsigned x, int p, int n);
 unsigned int setbits(unsigned int x, int p, int n, unsigned int y);
 unsigned int invert(unsigned int x, int p, int n);
+unsigned short rightrot(unsigned short x, int n);
 
 int main()
 {
@@ -138,7 +140,9 @@ int main()
 	result_1 = setbits(0x3256U, 8, 5, 0x6872U);
 	printf("%u\n", result_1);*/
 
-	unsigned int result = invert(0x56785678, 9, 6);
-	printf("%u\n", result);
+	/*unsigned int result = invert(0x56785678, 9, 6);
+	printf("%u\n", result);*/
+
+	printf("%u", (unsigned short)rightrot((unsigned short)0xBA47, (int)5));
 	/* ----------------------------------------------------- */
 }

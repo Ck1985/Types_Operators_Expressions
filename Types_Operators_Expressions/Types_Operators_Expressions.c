@@ -45,7 +45,7 @@ int any(char s1[], char s2[]);
 unsigned getbits(unsigned x, int p, int n);
 unsigned int setbits(unsigned int x, int p, int n, unsigned int y);
 unsigned int invert(unsigned int x, int p, int n);
-unsigned short rightrot(unsigned short x, int n);
+unsigned int rightrot(unsigned int x, int n);
 
 int main()
 {
@@ -143,6 +143,8 @@ int main()
 	/*unsigned int result = invert(0x56785678, 9, 6);
 	printf("%u\n", result);*/
 
-	printf("%u", (unsigned short)rightrot((unsigned short)0xBA47, (int)5));
+	unsigned int result = 0;
+	result = rightrot(29, 1);
+	printf("%u\n", result);
 	/* ----------------------------------------------------- */
 }

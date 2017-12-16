@@ -1,23 +1,26 @@
-/* function rightrot(x, n): that return value of integre x
+/* function rightrot(x, n): that return value of integer x
    rotated to the right by n bits positions */
 
-static unsigned short rightrot(unsigned short x, int n) {
-	int wordlength(void);
-	unsigned short rbit;/* rightmost bit */
+unsigned int baseLength(void);
 
-	rbit = x << (wordlength() - n);
-	x = x >> n;
-	x = x | rbit;
+static unsigned int rightrot(unsigned int x, int n) {
+	unsigned int result, mask, tempX_1, tempX_2;
+	unsigned int length = 0;
+	length = baseLength();
+	mask = (unsigned int)~0;
 
-	return x;
+	tempX_1 = x << length - n;
+	tempX_2 = x >> n;
+
+	result = tempX_1 | tempX_2;
+
+	return result;
 }
 
-static int wordlength(void)
-{
+static int baseLength() {
 	int i;
-	unsigned v = (unsigned)~0;
-
-	for (i = 1; (v = v >> 1)>0; i++)
+	unsigned int v = (unsigned int)~0;
+	for (i = 1; (v = (v >> 1)) > 0; ++i)
 		;
 	return i;
 }

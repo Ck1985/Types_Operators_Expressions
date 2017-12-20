@@ -14,6 +14,8 @@
 #include "Exercise2_6.c"
 #include "Exercise2_7.c"
 #include "Exercise2_8.c"
+#include "Exercise2_9.c"
+#include "Exercise2_10.c"
 #include "atoi.c"
 #include "Squeeze.c"
 #include "Strcat.c"
@@ -46,6 +48,8 @@ unsigned getbits(unsigned x, int p, int n);
 unsigned int setbits(unsigned int x, int p, int n, unsigned int y);
 unsigned int invert(unsigned int x, int p, int n);
 unsigned int rightrot(unsigned int x, int n);
+unsigned int bitCountVer2(unsigned int x);
+char lowerVer2(char c);
 
 int main()
 {
@@ -143,8 +147,20 @@ int main()
 	/*unsigned int result = invert(0x56785678, 9, 6);
 	printf("%u\n", result);*/
 
-	unsigned int result = 0;
+	/*unsigned int result = 0;
 	result = rightrot(29, 1);
-	printf("%u\n", result);
+	printf("%u\n", result);*/
 	/* ----------------------------------------------------- */
+
+	/* ------------- Assigment Operators and Expressions ------------- */
+	/*int countBit = bitCountVer2((unsigned int)9856);
+	printf("%d\n", countBit);*/
+	/* --------------------------------------------------------------- */
+
+	/* ------------ Condition Expressions ------------------- */
+	/*char c = lowerVer2('B');
+	printf("%c\n", c);*/
+	/* ------------------------------------------------------ */
+
+
 }
